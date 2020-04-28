@@ -5,4 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_hotdog.mk
+    $(LOCAL_DIR)/tipsy_hotdog.mk
+
+COMMON_LUNCH_CHOICES := \
+    tipsy_hotdog-user \
+    tipsy_hotdog-userdebug
