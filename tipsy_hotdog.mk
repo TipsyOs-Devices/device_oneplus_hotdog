@@ -17,6 +17,9 @@ $(call inherit-product, vendor/tipsy/config/gsm.mk)
 # Inherit tipsy product configuration
 $(call inherit-product, vendor/tipsy/config/common.mk)
 
+# gapps
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := tipsy_hotdog
 PRODUCT_DEVICE := hotdog
